@@ -1,0 +1,24 @@
+# Ignore all compiled C/C++ binaries & objects
+*.out
+*.exe
+*.o
+*.app
+
+# Ignore all log files
+*.log
+
+# Ignore build output folder
+build/
+bin/
+
+# Ignore macOS system folder
+.DS_Store
+
+# Ignore VS Code workspace settings
+.vscode/
+
+# Ignore all log files...
+*.log
+
+# ...EXCEPT for this critical log file
+!important_system.log
