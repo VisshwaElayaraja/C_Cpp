@@ -10,6 +10,8 @@ int main(){
     double volume = AREA * height;
     std::cout << "Volume of building: " << volume << " cu.meters\n";
 
+    
+
     return 0;
 }
 // End of Code.
