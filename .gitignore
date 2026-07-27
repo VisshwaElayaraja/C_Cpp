@@ -1,7 +1,18 @@
+# Object and archive files
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+
+# Ignore specific compiled binary names (Add your binary names here!)
+main
+a.out
+
 # Ignore all compiled C/C++ binaries & objects
 *.out
 *.exe
-*.o
 *.app
 
 # Ignore all log files
