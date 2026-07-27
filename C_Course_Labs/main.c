@@ -1,42 +1,23 @@
 #include <stdio.h>
 
+void calibrate_sensor_reading(double* ptr_val) {
+    *ptr_val = *ptr_val + 2.17;
+}
+
 int main() {
-    // float voltage = 2.1;
 
-    // if (voltage < 3.0) {
-    //     printf(("CRIT. Battery Low. Shutting down."));
-    // } else if (voltage == 3.3f) {
-    //     printf("Optimal Power.");
-    // } else {
-    //     printf("Too much power.");
-    // }
-    // printf("\n");
+    // int sensor_value = 212;
+    // int* pointer = &sensor_value;
+    // printf("value inside [sensor_value]: %d\n", sensor_value);
+    // printf("Physical RAM Address: %p\n", (void*)&sensor_value);
+    // printf("Address stored in pointer: %p\n", (void*)pointer);
+    // printf("Value fetched thro' value dereference: %d\n", *pointer);
 
+    double sensor_reading = 22.56;
+    printf("Before Calibration: %.2lf\n", sensor_reading);
+    calibrate_sensor_reading(&sensor_reading);
+    printf("After Calibration: %.2lf\n", sensor_reading);
 
-    // for (int i = 1; i <= 3; i++) {
-    //     printf("Pinging Cloud Server. [Attempt: %d]\n", i);
-    // }
-
-    // int battery = 100;
-    // int cycle = 1;
-    // while (battery >= 70) {
-    //     printf("Cycle %d: Device running... Battery at %d.\n", cycle, battery);
-    //     battery -= 10;
-    //     cycle += 1;
-    // }
-    // printf("Battery Low.");
-
-    float battery = 3.3f;
-    int temp = 35;
-    if (temp > 30 && battery == 3.3f) {
-        printf("ALERT. Overheating.\n");
-    } else {
-        printf("STATUS: Safe.\n");
-    }
-    for (int i = 1; i <= 3; i++) {
-        printf("Pinging Cloud Server... {Attempt %d}.\n", i);
-    }
-
+    
     return 0;
-
 }
