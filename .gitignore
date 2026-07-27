@@ -1,11 +1,32 @@
 # Ignore specific compiled binary names (Add your binary names here!)
+my_program
+my_prg
+main
 main1
 main2
 main3
+main4
+
 alpha
 beta
+baseline
+biosphere
+core
+dawn
+forge
 jarvis
-a.out
+messi
+odyssey
+odysseus
+orbit
+protocol
+sandbox
+sim
+simulation
+skylab
+zero
+zeus
+
 
 # Object and archive files
 *.o
