@@ -1,3 +1,12 @@
+# Ignore specific compiled binary names (Add your binary names here!)
+main1
+main2
+main3
+alpha
+beta
+jarvis
+a.out
+
 # Object and archive files
 *.o
 *.obj
@@ -5,10 +14,6 @@
 *.so
 *.dylib
 *.dll
-
-# Ignore specific compiled binary names (Add your binary names here!)
-main
-a.out
 
 # Ignore all compiled C/C++ binaries & objects
 *.out

@@ -18,6 +18,5 @@ int main() {
     calibrate_sensor_reading(&sensor_reading);
     printf("After Calibration: %.2lf\n", sensor_reading);
 
-    
     return 0;
 }
